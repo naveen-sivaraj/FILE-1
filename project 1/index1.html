@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+       
+            margin: 0;
+            background-color: white;
+        }
+
+        .container {
+            text-align: center;
+            width: 300px;
+            padding: 20px;
+            border: 3px solid black
+            background : white;
+            box-shadow: 5px 5px 15px rgba(red, green, blue, alpha);
+            border-radius: 10px;
+            
+        }
+
+        input[type="text"], input[type="email"], input[type="number"] {
+            border: 2px solid #000;  
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+
+        button hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+       
+        <h1>WELCOME TO MY PAGE</h1>
+        <img src="picture/pinrest image.jpg" alt="img">
+        <label for="login">Login</label>
+        <input type="text" id="login" name="login"><br>
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="password">PASSWORD</label>
+        <input type="number" name="number" id="number"><br>
+        
+        <button>Click Here</button>
+    
+</body>
+</html>
